@@ -7,7 +7,7 @@ buff.write('Hello', 'utf8');
 // write the string 'Hello' to the buffer starting at index 0 and ending at index 5  
 
 console.log(buff.toJSON());
-// { type: 'Buffer', data: [ 72, 101, 108, 108, 111, 0 ] }
+//Output: { type: 'Buffer', data: [ 72, 101, 108, 108, 111, 0 ] }
 
 //  If i put a string that is longer than the buffer,
 // it will only write the first 6 characters
