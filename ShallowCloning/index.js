@@ -77,7 +77,6 @@ console.log(Obj7);
 // So entire object and nested objects of the Obj7 is now immutable.
 // We can also use the lodash library to do the same thing.
 
-// Path: ShallowCloning\index.js
 const _ = require("lodash");
 
 const Obj9 = {
