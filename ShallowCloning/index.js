@@ -89,6 +89,9 @@ const Obj9 = {
             name: "Manek Chowk",
             distance: 5 // km
         }
+    },
+    func: function () {
+        console.log("Hello World");
     }
 }
 
@@ -96,4 +99,4 @@ const Obj10 = _.cloneDeep(Obj9);
 
 Obj10.address.city = "Bhavnagar";
 
-console.log(Obj9);
+console.log(Obj10);
